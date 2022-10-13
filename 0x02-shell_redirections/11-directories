@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -types d -not -name '.' | wc -1
+ls -t | head
